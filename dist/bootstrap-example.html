@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-example.min.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-example.css" />
   </head>
 
   <body>
@@ -32,8 +32,8 @@
 			<div id="map-container" class="bh-sl-map-container">
 				<div class="row">
 					<div id="map-results-container" class="container">
-						<div id="bh-sl-map" class="bh-sl-map col-md-9"></div>
-						<div class="bh-sl-loc-list col-md-3">
+						<div id="bh-sl-map" class="bh-sl-map col-xs-6"></div>
+						<div class="bh-sl-loc-list col-xs-6">
 							<ul class="list list-unstyled"></ul>
 						</div>
 					</div>
@@ -57,7 +57,7 @@
 							navigationControl: false,
 							draggable: false
 						},
-            autoGeocode: true, distanceAlert: -1, listColor2: '#ffffff', loading: true, slideMap: true, markerImg: "assets/img/car.png"
+            autoGeocode: true, distanceAlert: -1, listColor2: '#ffffff', loading: false, slideMap: true, markerImg: "assets/img/car.png"
 					});
         });
       </script>

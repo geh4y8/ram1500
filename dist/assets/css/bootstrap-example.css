@@ -71,6 +71,7 @@
 .bh-sl-container .bh-sl-loc-list {
   height: 530px;
   overflow-x: auto;
+  padding:0px;
 }
 .bh-sl-container .bh-sl-loc-list ul {
   display: block;
@@ -85,10 +86,10 @@
   display: block;
   clear: left;
   float: left;
-  margin: 3% 4%;
+  margin: ;
   cursor: pointer;
-  width: 92%;
-  border: 1px solid #ffffff;
+  width: 100%;
+  border: 1px solid black;
   /* Adding this to prevent moving li elements when adding the list-focus class*/
 }
 .bh-sl-container .bh-sl-loc-list .list-label {
@@ -98,8 +99,8 @@
   width: 10%;
   max-width: 25px;
   text-align: center;
-  background: #451400;
-  color: #ffffff;
+  background: white;
+  color: black;
   font-weight: bold;
 }
 .bh-sl-container .bh-sl-loc-list .list-details {
@@ -108,7 +109,7 @@
   width: 80%;
 }
 .bh-sl-container .bh-sl-loc-list .list-details .list-content {
-  padding: 10px;
+  padding: 0px;
 }
 .bh-sl-container .bh-sl-loc-list .list-details .loc-dist {
   font-weight: bold;
@@ -129,7 +130,7 @@
 }
 .bh-sl-container .bh-sl-loc-list .bh-sl-close-directions-container .bh-sl-close-icon {
   top: 0;
-  right: 6px;
+  /*right: 6px;*/
 }
 .bh-sl-container .bh-sl-loc-list .bh-sl-noresults-title {
   font-weight: bold;
@@ -137,8 +138,8 @@
 }
 .bh-sl-container .loc-name {
   /* Picked up by both list and infowindows */
-  color: #ae2118;
-  font-weight: bold;
+  color: black;
+  /*font-weight: bold;*/
 }
 .bh-sl-container .bh-sl-map {
   height: 530px;
@@ -150,7 +151,7 @@
   list-style-type: none;
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 0px 0;
 }
 .bh-sl-container .bh-sl-pagination-container ol li {
   display: inline-block;
